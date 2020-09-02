@@ -1,0 +1,49 @@
+#Container-Tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Container-Name-Tools{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+#Last-Name{
+    margin-top: -50px;
+    margin-left: 20px;
+}
+#Name-P, #Last-H {
+    color: #fcf710;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.iconos .contacto-iconos li{
+    list-style: none;
+    display: inline;
+    margin: 40px;
+
+}
+.iconos .contacto-iconos li a{
+    font-size: 40px;
+    color: black;
+}
+.iconos .contacto-iconos li a:hover{
+    color: #fcf710;
+}
+
+
+@media (max-width:768px){
+
+    .iconos{
+        text-align: center;
+    }
+    .iconos .contacto-iconos li{
+        list-style: none;
+        display: inline;
+        margin: 30px;
+    
+    }
+}

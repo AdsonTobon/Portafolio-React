@@ -1,0 +1,93 @@
+#Container-header{
+    display: flex;
+    flex-direction: column;
+
+}
+#Container-Name{
+    letter-spacing: -1px;
+    font-size:6.58rem ;
+    margin-left: 150px;
+    font-weight: bold;
+    color: black;
+}
+#Container-Name #Name-A, #Last-Name-P{
+    color: #fcf710;
+}
+
+
+#Container-Name #Last-Name{
+    margin-top: -90px;
+    margin-left: 70px;
+    
+}
+#Container-Perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Container-Description{
+    width: 550px;
+    text-align: justify;
+    
+}
+#Container-Description h2{
+    letter-spacing: 0.5px;
+    color: black;
+}
+#Container-Description p b{
+    
+    color: black;
+}
+
+/* -------- Media Query ------- */
+@media (max-width:768px){
+
+    #Container-Name{
+        letter-spacing: -1px;
+        font-size:4.58rem ;
+        margin-left: 40px;
+        font-weight: bold;
+        color: black;
+    }
+    #Container-Name #Last-Name{
+        margin-top: -50px;
+        margin-left: 50px;
+        
+    }
+    #Container-Perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Container-Description{
+        width: 95%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media (max-width:360px){
+
+    #Container-Name{
+        letter-spacing: -1px;
+        font-size:4rem ;
+        margin-left: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    #Container-Name #Last-Name{
+        margin-top: -50px;
+        margin-left: 50px;
+        
+    }
+    #Container-Perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

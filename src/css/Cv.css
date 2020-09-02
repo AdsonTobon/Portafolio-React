@@ -1,0 +1,22 @@
+#Container-CV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+#Container-Cv-Title h2{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    border-top: 2px dotted black;
+}
+#Container-pdf{
+    text-align: center;
+}
+.links-Cv{
+    color: black;
+    font-size: 40px;
+}

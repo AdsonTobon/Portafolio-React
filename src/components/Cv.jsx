@@ -1,0 +1,25 @@
+import React from 'react'
+import CV from './../CV/ANDERSON-TOBON-PEREZ.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './../css/Cv.css';
+
+const Cv=()=>{
+
+    return (
+        <div id="Container-CV">
+            
+            <div id="Container-Cv-Title">
+                <h2>Hoja de Vida</h2>
+            </div>
+            <div id="Container-pdf">
+                <p>Da click en el siguiente enlace para su descarga.</p>
+                <a className='links-Cv' href={CV} download="Anderson-tobon.pdf">
+                <FontAwesomeIcon className='iconos' icon={['fab', 'buffer']} />CV</a>
+            </div>
+            
+            
+        </div>
+    )
+}
+
+export default Cv;

@@ -1,0 +1,74 @@
+#Container-Projects{
+    
+    background-color: black;
+    height: 100%;
+}
+.carousel h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+.carousel p{
+    text-align: center;
+    color: #fcf710;
+    font-size: 25px;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-weight: bold;
+    margin-top: 10px;
+   
+}
+.d-block{
+    width: 800px;
+    height: 400px;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.carousel img{
+    display: flex;
+    flex-direction: column;
+    width: 500px !important;
+    height: 450px;
+    margin-left: 32vw;
+    border-radius: 10px;
+}
+
+@media (max-width:768px){
+
+    #Container-Projects{
+        
+        background-color: black;
+        width: 100%;
+        height: 90%;
+    }
+
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel img{
+        display: flex;
+        flex-direction: column;
+        width: 90% !important;
+        height: 250px;
+        margin-left: 25px;
+        border-radius: 10px;
+    }
+    .d-block{
+        width: 90%;
+        height: 100%;
+    }
+}

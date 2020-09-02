@@ -1,0 +1,41 @@
+#Container-Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fcf710;
+    padding: 5%;
+}
+#Container-Contacto h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}
+#Container-Redes h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+#Container-Iconos a{
+    margin: 20px;
+    font-size: 35px;
+    color: black;
+}
+
+@media (max-width:768px){
+    #Container-Footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #Container-Footer h4{
+        text-align: center;
+    }
+
+    #Container-Redes{
+        margin-top: 25px;
+    }
+}
