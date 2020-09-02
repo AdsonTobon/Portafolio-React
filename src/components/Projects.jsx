@@ -10,7 +10,7 @@ export default class Projects extends Component {
                 <Carousel id="projects" className="carousel">
                 <CarouselItem>
                     <h2>Random Quote</h2>
-                <a id="tribute" href="https://pokedex-js.now.sh/#/" target='_blank' rel="noopener noreferrer">
+                <a id="tribute" href="/#" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/Random.JPG'}
@@ -21,7 +21,7 @@ export default class Projects extends Component {
                 </CarouselItem>
                 <CarouselItem>
                     <h2>Landing Page</h2>
-                <a id="tribute" href="https://pomodoro-clock-pearl.now.sh/" target='_blank' rel="noopener noreferrer">
+                <a id="tribute" href="/#" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/landing.JPG'}
@@ -32,7 +32,7 @@ export default class Projects extends Component {
                 </CarouselItem>
                 <CarouselItem>
                     <h2>Survey Form</h2>
-                <a id="tribute" href="https://react-js-calculator.now.sh/" target='_blank' rel="noopener noreferrer">
+                <a id="tribute" href="/#" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/formulario.JPG'}
@@ -43,7 +43,7 @@ export default class Projects extends Component {
                 </CarouselItem>
                 <CarouselItem>
                     <h2>Tribute Page</h2>
-                <a id="tribute" href="https://ssam24.github.io/Tribute-page/" target='_blank' rel="noopener noreferrer">
+                <a id="tribute" href="/#" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/tributo.JPG'}
@@ -54,7 +54,7 @@ export default class Projects extends Component {
                 </CarouselItem> 
                 <Carousel.Item>
                     <h2>Technical Documentation Page</h2>
-                <a id="survey" href="https://ssam24.github.io/survey-form/" target="_blank" rel="noopener noreferrer"> 
+                <a id="survey" href="/#" target="_blank" rel="noopener noreferrer"> 
                 <img
                     className="d-block"
                     src= {process.env.PUBLIC_URL + '/images/documentacion.JPG'}
