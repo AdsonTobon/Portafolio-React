@@ -10,7 +10,7 @@ export default class Projects extends Component {
                 <Carousel id="projects" className="carousel">
                 <CarouselItem>
                     <h2>Random Quote</h2>
-                <a id="tribute" href="/#" target='_blank' rel="noopener noreferrer">
+                <a id="tribute" href="https://random-quote-machine-ashy.vercel.app/" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/Random.JPG'}
