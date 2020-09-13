@@ -9,12 +9,23 @@ export default class Projects extends Component {
             <div id="Container-Projects">
                 <Carousel id="projects" className="carousel">
                 <CarouselItem>
+                    <h2>Pokemon API</h2>
+                <a id="tribute" href="https://react-pokeapi-5vbplimqy.vercel.app/" target='_blank' rel="noopener noreferrer">
+                <img
+                    className="d-block" 
+                    src= {process.env.PUBLIC_URL + '/images/pokemon.JPG'}
+                    alt="PokemonApi"
+                ></img> 
+                </a>
+                <p>Creación de un pokedex</p>
+                </CarouselItem>
+                <CarouselItem>
                     <h2>Random Quote</h2>
                 <a id="tribute" href="https://random-quote-machine-ashy.vercel.app/" target='_blank' rel="noopener noreferrer">
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/Random.JPG'}
-                    alt="Tribute Page"
+                    alt="RandomQuote"
                 ></img> 
                 </a>
                 <p>Generador de citas aleatorias</p>
@@ -25,7 +36,7 @@ export default class Projects extends Component {
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/landing.JPG'}
-                    alt="Tribute Page"
+                    alt="LandingPage"
                 ></img> 
                 </a>
                 <p>Landing Page cursos parrilleros</p>
@@ -36,7 +47,7 @@ export default class Projects extends Component {
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/formulario.JPG'}
-                    alt="Tribute Page"
+                    alt="SurveyForm"
                 ></img> 
                 </a>
                 <p>Encuesta sobre emprendimiento</p>
@@ -47,7 +58,7 @@ export default class Projects extends Component {
                 <img
                     className="d-block" 
                     src= {process.env.PUBLIC_URL + '/images/tributo.JPG'}
-                    alt="Tribute Page"
+                    alt="TributePage"
                 ></img> 
                 </a>
                 <p>Página tributo Thomas Alva Edison </p>
@@ -58,7 +69,7 @@ export default class Projects extends Component {
                 <img
                     className="d-block"
                     src= {process.env.PUBLIC_URL + '/images/documentacion.JPG'}
-                    alt="Survey form"
+                    alt="DocumentationPage"
                 /></a>
                 <p>Documentación JavaScript </p>
                 </Carousel.Item>
