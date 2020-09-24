@@ -13,7 +13,7 @@ const Cv=()=>{
             </div>
             <div id="Container-pdf">
                 <p>Da click en el siguiente enlace para su descarga.</p>
-                <a className='links-Cv' href={CV} download="Anderson-tobon.pdf">
+                <a className='links-Cv' href={CV} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className='iconos' icon={['fab', 'buffer']} />CV</a>
             </div>
             
