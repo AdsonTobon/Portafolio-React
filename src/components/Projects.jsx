@@ -9,6 +9,28 @@ export default class Projects extends Component {
             <div id="Container-Projects">
                 <Carousel id="projects" className="carousel">
                 <CarouselItem>
+                    <h2>GitHub Search</h2>
+                <a id="tribute" href="https://gitinnova-sigma.vercel.app/" target='_blank' rel="noopener noreferrer">
+                <img
+                    className="d-block" 
+                    src= {process.env.PUBLIC_URL + '/images/github.jpg'}
+                    alt="GitHub Search"
+                ></img> 
+                </a>
+                <p>Buscador de Repositorios GitHub</p>
+                </CarouselItem>
+                <CarouselItem>
+                    <h2>MoviReto</h2>
+                <a id="tribute" href="https://movi-reto-pi.vercel.app/" target='_blank' rel="noopener noreferrer">
+                <img
+                    className="d-block" 
+                    src= {process.env.PUBLIC_URL + '/images/MoviReto.JPG'}
+                    alt="MoviReto"
+                ></img> 
+                </a>
+                <p>Aplicación de movilidad compartida</p>
+                </CarouselItem>
+                <CarouselItem>
                     <h2>Pokemon API</h2>
                 <a id="tribute" href="https://react-pokeapi-5vbplimqy.vercel.app/" target='_blank' rel="noopener noreferrer">
                 <img
@@ -52,29 +74,7 @@ export default class Projects extends Component {
                 </a>
                 <p>Encuesta sobre emprendimiento</p>
                 </CarouselItem>
-                <CarouselItem>
-                    <h2>Tribute Page</h2>
-                <a id="tribute" href="https://tribute-page-free-code-camp-rho.vercel.app/" target='_blank' rel="noopener noreferrer">
-                <img
-                    className="d-block" 
-                    src= {process.env.PUBLIC_URL + '/images/tributo.JPG'}
-                    alt="TributePage"
-                ></img> 
-                </a>
-                <p>Página tributo Thomas Alva Edison </p>
-                </CarouselItem> 
-                <Carousel.Item>
-                    <h2>Technical Documentation Page</h2>
-                <a id="survey" href="https://technical-documentation-page-free-code-camp.vercel.app/" target="_blank" rel="noopener noreferrer"> 
-                <img
-                    className="d-block"
-                    src= {process.env.PUBLIC_URL + '/images/documentacion.JPG'}
-                    alt="DocumentationPage"
-                /></a>
-                <p>Documentación JavaScript </p>
-                </Carousel.Item>
                 
-
             </Carousel> 
           </div>     
             
